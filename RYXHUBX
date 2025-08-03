@@ -1,0 +1,15 @@
+local supportedPlaces = {
+    [105788818579323] = true,
+    [128870589208224] = true,
+    [2753915549] = true
+}
+
+if supportedPlaces[game.PlaceId] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RyXWare/RyXHubMobile/main/MobileRyX"))()
+else
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "RyX Hub";
+        Text = "GAME NOT SUPPORTED (yet?) 🤔";
+        Duration = 10;
+    })
+end
