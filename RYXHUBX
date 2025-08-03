@@ -5,7 +5,7 @@ local supportedPlaces = {
 }
 
 if supportedPlaces[game.PlaceId] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RyXWare/RyXHubMobile/main/MobileRyX"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rxbdxyz/RYXHUB/refs/heads/main/RYXHUBONTOP"))()
 else
     game.StarterGui:SetCore("SendNotification", {
         Title = "RyX Hub";
